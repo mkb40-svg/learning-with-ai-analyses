@@ -51,10 +51,6 @@ python summarise_v2.py <results_dir>
 
 Random seeds are fixed in the code (2026, 2027, 2028), so the samples and results reproduce.
 
-## Use of AI
-
-The analysis code, the plans and the first drafts of the preprints were prepared with the help of Claude (Anthropic), an AI assistant, under the author's direction. The author checked the analyses and results and takes responsibility for them.
-
 ## Licence
 
 Code (`code/`): MIT, see `LICENSE`. Plans, results and documentation: CC BY 4.0. Files derived from EdNet: CC BY-NC 4.0.
