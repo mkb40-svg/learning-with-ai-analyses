@@ -1,0 +1,89 @@
+{
+  "note": "Post hoc (A7): robust post-error slowing after Dutilh et al. (2012). HR > 1 = faster mastery.",
+  "ASSISTments": {
+    "n_learners_with_robust_pes": 983,
+    "corr_with_traditional_E1": 0.13069235618601924,
+    "mean_robust_pes": 0.02227256225069174,
+    "cox_robust_pes": {
+      "n_sequences": 17862,
+      "n_learners": 983,
+      "mastered_share": 0.7825551450005599,
+      "zE1": {
+        "HR": 1.0006068355898192,
+        "95ci": [
+          0.970718590603456,
+          1.0314153340842662
+        ],
+        "z": 0.03920938300576054,
+        "p_two_sided": 0.9687234528337034,
+        "p_one_sided_HR_gt_1": 0.4843617264168517,
+        "p_one_sided_HR_lt_1": 0.5156382735831483
+      },
+      "zK": {
+        "HR": 1.2452607884052247,
+        "95ci": [
+          1.2029760271852006,
+          1.2890318643904886
+        ],
+        "z": 12.44457646583234,
+        "p_two_sided": 1.4967621671473006e-35,
+        "p_one_sided_HR_gt_1": 7.483810835736503e-36,
+        "p_one_sided_HR_lt_1": 1.0
+      }
+    },
+    "split_half_robust_pes": {
+      "n": 803,
+      "r": 0.08753740200895058,
+      "95ci": [
+        0.010689236274144856,
+        0.16736866948095644
+      ],
+      "spearman_brown": 0.16098278890868,
+      "meets_threshold": false,
+      "p_one_sided_rho_gt_threshold": 0.9999999998220678
+    }
+  },
+  "EdNet_study2": {
+    "n_learners_with_robust_pes": 16569,
+    "corr_with_traditional_E1": 0.11930363661186448,
+    "mean_robust_pes": -0.006845517065192834,
+    "cox_robust_pes": {
+      "n_sequences": 619518,
+      "n_learners": 16548,
+      "mastered_share": 0.6015983393541431,
+      "zE1": {
+        "HR": 0.9984967484191368,
+        "95ci": [
+          0.986175821148177,
+          1.0109716089396865
+        ],
+        "z": -0.23747848545893815,
+        "p_two_sided": 0.8122856079894386,
+        "p_one_sided_HR_gt_1": 0.5938571960052808,
+        "p_one_sided_HR_lt_1": 0.4061428039947193
+      },
+      "zK": {
+        "HR": 1.0662033555600692,
+        "95ci": [
+          1.056783597364077,
+          1.0757070778189899
+        ],
+        "z": 14.158473029443304,
+        "p_two_sided": 1.6555240237359717e-45,
+        "p_one_sided_HR_gt_1": 8.277620118679858e-46,
+        "p_one_sided_HR_lt_1": 1.0
+      }
+    },
+    "split_half_robust_pes": {
+      "n": 14113,
+      "r": 0.013482815127812086,
+      "95ci": [
+        -0.01615849462134955,
+        0.04697948299736096
+      ],
+      "spearman_brown": 0.026606894417073552,
+      "meets_threshold": false,
+      "p_one_sided_rho_gt_threshold": 1.0
+    }
+  }
+}
