@@ -1,0 +1,84 @@
+{
+  "dataset": "EdNet-KT3 (seed 2028 sample)",
+  "sampling": {
+    "files_drawn": 34103,
+    "learners_kept": 20000,
+    "responses": 6823177
+  },
+  "n_learners_eligible": 20000,
+  "n_incorrect_with_next_same_tag": 1756776,
+  "share_incorrect_followed_by_explanation": 0.9784201286902826,
+  "share_all_post_responses_followed_by_explanation": 0.9839432042960652,
+  "viewed_share_by_source_incorrect": {
+    "mean": {
+      "adaptive_offer": 0.9933,
+      "diagnosis": 0.0442,
+      "my_note": 0.9556,
+      "review": 0.9831,
+      "review_quiz": 0.993,
+      "sprint": 0.9843,
+      "tutor": 0.7537
+    },
+    "size": {
+      "adaptive_offer": 71939,
+      "diagnosis": 2804,
+      "my_note": 216770,
+      "review": 14077,
+      "review_quiz": 61326,
+      "sprint": 1378174,
+      "tutor": 11686
+    }
+  },
+  "H5_lpm": {
+    "n_obs": 1756776,
+    "n_clusters": 19881,
+    "outcome_mean": 0.6338360724417911,
+    "viewed": {
+      "b": 0.017762393123710522,
+      "se": 0.0029757767455705283,
+      "95ci": [
+        0.011929870702392287,
+        0.02359491554502876
+      ],
+      "p_two_sided": 2.427726476125913e-09
+    }
+  },
+  "EXPLORATORY_A3a_source_fixed_effect": {
+    "n_obs": 1756776,
+    "n_clusters": 19881,
+    "outcome_mean": 0.6338360724417911,
+    "viewed": {
+      "b": 0.009253603558218353,
+      "se": 0.0029786306934298876,
+      "95ci": [
+        0.003415487399095773,
+        0.015091719717340933
+      ],
+      "p_two_sided": 0.0018947799857171183
+    }
+  },
+  "EXPLORATORY_A3b_dwell_descriptives_seconds": {
+    "count": 1691398.0,
+    "mean": 44.53,
+    "std": 66.05,
+    "min": 1.0,
+    "25%": 10.03,
+    "50%": 22.75,
+    "75%": 49.56,
+    "max": 599.97
+  },
+  "EXPLORATORY_A3b_time_on_explanation": {
+    "n_obs": 1691398,
+    "n_clusters": 19856,
+    "outcome_mean": 0.6352467012494989,
+    "zlogdwell": {
+      "b": -0.016098726704727704,
+      "se": 0.001005717797199493,
+      "95ci": [
+        -0.01806993358723871,
+        -0.014127519822216697
+      ],
+      "p_two_sided": 2.599815927966395e-57
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "dataset": "EdNet-KT1 fresh sample (seed 2027, Study 1 files excluded)",
+  "sampling": {
+    "files_drawn": 20332,
+    "learners_kept": 20000,
+    "rows": 9157204,
+    "overlap_with_study1_learners": 0
+  },
+  "n_learners_eligible": 20000,
+  "n_learners_with_E1_and_K": 19941,
+  "descriptives": {
+    "K": {
+      "count": 19941.0,
+      "mean": 0.5336,
+      "std": 0.1956,
+      "min": 0.0,
+      "25%": 0.4,
+      "50%": 0.5,
+      "75%": 0.6,
+      "max": 1.0
+    },
+    "E1": {
+      "count": 19941.0,
+      "mean": 0.0053,
+      "std": 0.2018,
+      "min": -2.8744,
+      "25%": -0.0606,
+      "50%": 0.0,
+      "75%": 0.0831,
+      "max": 2.0794
+    }
+  },
+  "H1_cox": {
+    "n_sequences": 632600,
+    "n_learners": 19883,
+    "mastered_share": 0.5936215618084097,
+    "zE1": {
+      "HR": 1.0761880723910606,
+      "95ci": [
+        1.0588807396203925,
+        1.0937782923240185
+      ],
+      "z": 8.87653848288055,
+      "p_two_sided": 6.897327776112533e-19,
+      "p_one_sided_HR_gt_1": 3.4486638880562666e-19,
+      "p_one_sided_HR_lt_1": 1.0
+    },
+    "zK": {
+      "HR": 1.0711272266498324,
+      "95ci": [
+        1.0617136050944822,
+        1.080624313529882
+      ],
+      "z": 15.256498898344967,
+      "p_two_sided": 1.4903299442294001e-52,
+      "p_one_sided_HR_gt_1": 7.451649721147001e-53,
+      "p_one_sided_HR_lt_1": 1.0
+    }
+  },
+  "H2_split_half_E1": {
+    "n": 18580,
+    "r": 0.31128640770149596,
+    "95ci": [
+      0.2707095421069004,
+      0.3521633231252982
+    ],
+    "spearman_brown": 0.4747801942782859,
+    "meets_threshold": true,
+    "p_one_sided_rho_gt_threshold": 0.04486249287990793
+  }
+}
